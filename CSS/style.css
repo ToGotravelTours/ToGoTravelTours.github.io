@@ -4,6 +4,7 @@ body{
     font-family: 'M PLUS 2', sans-serif;
     font-size: 15px;
     line-height: 1.6;
+    /*max-width: 1920px;*/
 }
 /*Conteiner*/
 .container{
@@ -189,6 +190,13 @@ h1,h2,h3,h4,h5{
     justify-content: space-between;
     margin: 0 40px 40px;
 }
+/**/
+@media (max-width:1080px){
+    .photos{
+        max-width: 1080px;
+    }
+}
+
 /*names of photos*/
 .name_1{
     text-align: center;
