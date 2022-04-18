@@ -146,7 +146,7 @@ h1,h2,h3,h4,h5{
     color: #48560b;
 }
 
-/*page 1*/
+/**************************page 1******************************************/
 .section{
     padding: 24px;
     font-weight: 700;
@@ -200,20 +200,12 @@ h1,h2,h3,h4,h5{
 /*names of photos*/
 .name_1{
     text-align: center;
-}/*
-.name_2{
-    text-align: center;
 }
-.name_3{
-    text-align: center;
-}*/
-/*footer*/
 .foter{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.33);
 }
-
-
+/************************pages with counties***********************************/
 /*review*/
 .titleI{
     margin: 0 auto;
@@ -254,7 +246,7 @@ h1,h2,h3,h4,h5{
     font-size: 20px;
 }
 
-/*page faroe*/
+/***************************page faroe*************************************/
 .introF{
     display: flex;
     flex-direction: column;
@@ -278,7 +270,7 @@ h1,h2,h3,h4,h5{
     background-size:cover;
 }
 
-/*page italy*/
+/*************************page italy***************************************/
 .introI{
     display: flex;
     flex-direction: column;
@@ -302,7 +294,7 @@ h1,h2,h3,h4,h5{
     background-size:cover;
 }
 
-/*page usa*/
+/******************************page usa********************************/
 .introU{
     display: flex;
     flex-direction: column;
@@ -326,7 +318,7 @@ h1,h2,h3,h4,h5{
     background-size:cover;
 }
 
-/*page sweden*/
+/*************************page sweden*************************************/
 .introS{
     display: flex;
     flex-direction: column;
@@ -350,7 +342,7 @@ h1,h2,h3,h4,h5{
     background-size:cover;
 }
 
-/*page canada*/
+/************************************page canada****************************/
 .introC{
     display: flex;
     flex-direction: column;
@@ -382,7 +374,7 @@ h1,h2,h3,h4,h5{
     margin: 20px auto;
     text-align: center;
 }
-.nameC:after{
+/*.nameC:after{
     content: "";
     display: block;
     width: 90px;
@@ -390,9 +382,9 @@ h1,h2,h3,h4,h5{
     margin: 20px auto;
     
     background-color: white;
-}
+}*/
 
-/*page france*/
+/********************************page france*****************/
 .introF{
     display: flex;
     flex-direction: column;
@@ -415,7 +407,6 @@ h1,h2,h3,h4,h5{
     background: url("../images/back2_france.jpg") center no-repeat;
     background-size:cover;
 }
-
 /*таблиця*/
 table {
     font-size: 14px;
@@ -487,10 +478,35 @@ tr:hover td {
     width: 21%;
     border-radius: 10px;
 }
+/**Order button**/
+.OrderBtn{
+    display: inline-block;
+    vertical-align:top;
+    padding: 10px 20px;
+    margin: 20px auto 25px;
+    display: flex;
+    justify-content: center;
+    
+    border: 3px solid #fff;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700px; 
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; /*забираємо підкреслення*/
+    
+    width: 80px;
+   
+    transition: background 0.2s linear, color 0.2s linear, border 0.2s linear;
+}
 
-
-
-/*page ABIUT US*/
+.OrderBtn:hover{
+    background-color: #367b25;
+    border: 3px solid #367b25;
+    color: black;
+}
+/******************************page ABIUT US*************************/
 .Inform{
     width: 100%;
     height: 100vh;
@@ -502,7 +518,6 @@ tr:hover td {
     background: url("../images/back%20for%20about.jpg") center no-repeat;
     background-size:cover;
 }
-
 .titlel{
     font-size: 14px;
     text-align: center;
@@ -522,22 +537,6 @@ tr:hover td {
     border-radius: 10px;
 }
 .contact{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 5px;
-}
-.Comment{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 5px;
-    padding: 5px;
-    
-    background: rgba(255, 255, 255, 0.45); 
-    max-width: 50%;
-    width: 50%;
-    border-radius: 10px;
-}
-.form{
     display: flex;
     justify-content: center;
     margin: 0 auto 5px;
@@ -580,3 +579,52 @@ tr:hover td {
     margin: 0 auto 40px;
     
 }
+/******************************Order page*********************************/
+.OrderForm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+    /*height: 165vh;*/
+    background: url("../images/forOrder.jpg") center no-repeat;
+    /*background-size:cover;*/
+}
+
+.form{
+    
+   /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    margin: 80px auto 0;
+}
+
+/*.OrderBtnCancel{
+    display: inline-block;
+    vertical-align:top;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    
+    border: 3px solid #fff;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700px; 
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; /*забираємо підкреслення
+    
+    width: 80px;
+    
+    transition: background 0.2s linear, color 0.2s linear, border 0.2s linear;
+}
+
+.OrderBtnCancel:hover{
+    background-color: #eb8a8a;
+    border: 3px solid #eb8a8a;
+    color: black;
+}*/
+
