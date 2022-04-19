@@ -385,7 +385,7 @@ h1,h2,h3,h4,h5{
 }*/
 
 /********************************page france*****************/
-.introF{
+.introFr{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -396,7 +396,7 @@ h1,h2,h3,h4,h5{
     background: url("../images/back1_france.jpg") center no-repeat;
     background-size:cover;
 }
-.information_F{
+.information_Fr{
     display: flex;
     flex-direction: column;
     justify-content: center;
